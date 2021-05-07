@@ -3,9 +3,9 @@ import Search from  "./search"
 
 
 const Api = () => {
-  const [items, setList] = useState();
+  const [items, setList] = useState([]);
   useEffect(() => { 
-    updateData();
+    updateData();    
   },[]);
 
   /**
